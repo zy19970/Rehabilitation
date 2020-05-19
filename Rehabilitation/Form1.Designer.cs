@@ -40,6 +40,10 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.M8128Chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.StartLed = new LED.LED();
+            this.PreReadyLed = new LED.LED();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
@@ -83,10 +87,6 @@
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.SerialScanTimer = new System.Windows.Forms.Timer(this.components);
             this.ChartFTTimer = new System.Windows.Forms.Timer(this.components);
-            this.PreReadyLed = new LED.LED();
-            this.StartLed = new LED.LED();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.ChartAngleTimer = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AngleChart)).BeginInit();
@@ -167,6 +167,40 @@
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "参数配置";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(49, 68);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(29, 12);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "开始";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(47, 32);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(41, 12);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "预准备";
+            // 
+            // StartLed
+            // 
+            this.StartLed.AutoSize = true;
+            this.StartLed.Location = new System.Drawing.Point(11, 56);
+            this.StartLed.Name = "StartLed";
+            this.StartLed.Size = new System.Drawing.Size(43, 44);
+            this.StartLed.TabIndex = 1;
+            // 
+            // PreReadyLed
+            // 
+            this.PreReadyLed.AutoSize = true;
+            this.PreReadyLed.Location = new System.Drawing.Point(11, 21);
+            this.PreReadyLed.Name = "PreReadyLed";
+            this.PreReadyLed.Size = new System.Drawing.Size(43, 44);
+            this.PreReadyLed.TabIndex = 0;
             // 
             // tabControl1
             // 
@@ -580,7 +614,7 @@
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(507, 344);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "tabPage4";
+            this.tabPage4.Text = "图表设置";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // SerialScanTimer
@@ -592,40 +626,6 @@
             // 
             this.ChartFTTimer.Interval = 2;
             this.ChartFTTimer.Tick += new System.EventHandler(this.ChartScanTimer_Tick);
-            // 
-            // PreReadyLed
-            // 
-            this.PreReadyLed.AutoSize = true;
-            this.PreReadyLed.Location = new System.Drawing.Point(11, 21);
-            this.PreReadyLed.Name = "PreReadyLed";
-            this.PreReadyLed.Size = new System.Drawing.Size(43, 44);
-            this.PreReadyLed.TabIndex = 0;
-            // 
-            // StartLed
-            // 
-            this.StartLed.AutoSize = true;
-            this.StartLed.Location = new System.Drawing.Point(11, 56);
-            this.StartLed.Name = "StartLed";
-            this.StartLed.Size = new System.Drawing.Size(43, 44);
-            this.StartLed.TabIndex = 1;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(47, 32);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(41, 12);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "预准备";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(49, 68);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 12);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "开始";
             // 
             // ChartAngleTimer
             // 
