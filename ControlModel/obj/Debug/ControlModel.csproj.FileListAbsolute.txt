@@ -1,0 +1,5 @@
+D:\CODE\dotnetCode\01Rehabilitation\ControlModel\bin\Debug\ControlModel.dll
+D:\CODE\dotnetCode\01Rehabilitation\ControlModel\bin\Debug\ControlModel.pdb
+D:\CODE\dotnetCode\01Rehabilitation\ControlModel\obj\Debug\ControlModel.csproj.CoreCompileInputs.cache
+D:\CODE\dotnetCode\01Rehabilitation\ControlModel\obj\Debug\ControlModel.dll
+D:\CODE\dotnetCode\01Rehabilitation\ControlModel\obj\Debug\ControlModel.pdb

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rehabilitation", "Rehabilitation.csproj", "{6AFDEBC4-5721-4E84-AAEF-1A254DAB7377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlModel", "..\ControlModel\ControlModel.csproj", "{78EB1999-BAEC-4341-8725-5C39A342E95E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LED", "..\LED\LED.csproj", "{3C19F1A9-518C-41A9-9391-3573CDE2B29B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AFDEBC4-5721-4E84-AAEF-1A254DAB7377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFDEBC4-5721-4E84-AAEF-1A254DAB7377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFDEBC4-5721-4E84-AAEF-1A254DAB7377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFDEBC4-5721-4E84-AAEF-1A254DAB7377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EB1999-BAEC-4341-8725-5C39A342E95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EB1999-BAEC-4341-8725-5C39A342E95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EB1999-BAEC-4341-8725-5C39A342E95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EB1999-BAEC-4341-8725-5C39A342E95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C19F1A9-518C-41A9-9391-3573CDE2B29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C19F1A9-518C-41A9-9391-3573CDE2B29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C19F1A9-518C-41A9-9391-3573CDE2B29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C19F1A9-518C-41A9-9391-3573CDE2B29B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DF5643A-2FF7-499C-ABB5-2F11405D342C}
+	EndGlobalSection
+EndGlobal
